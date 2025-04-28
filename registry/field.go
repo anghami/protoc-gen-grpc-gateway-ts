@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/dpup/protoc-gen-grpc-gateway-ts/data"
+	"github.com/anghami/protoc-gen-grpc-gateway-ts/data"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

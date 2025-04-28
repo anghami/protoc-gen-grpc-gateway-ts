@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/dpup/protoc-gen-grpc-gateway-ts/registry"
+	"github.com/anghami/protoc-gen-grpc-gateway-ts/registry"
 	"github.com/pkg/errors"
 )
 
