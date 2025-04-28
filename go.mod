@@ -1,4 +1,4 @@
-module github.com/dpup/protoc-gen-grpc-gateway-ts
+module github.com/anghami/protoc-gen-grpc-gateway-ts
 
 go 1.22
 

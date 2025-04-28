@@ -3,7 +3,7 @@ package generator
 import (
 	"testing"
 
-	"github.com/dpup/protoc-gen-grpc-gateway-ts/registry"
+	"github.com/anghami/protoc-gen-grpc-gateway-ts/registry"
 	"github.com/stretchr/testify/assert"
 )
 

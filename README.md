@@ -29,7 +29,7 @@
 You will need to install `protoc-gen-grpc-gateway-ts` before it could be picked up by the `protoc` command. Run:
 
 ```sh
-go install github.com/dpup/protoc-gen-grpc-gateway-ts
+go install github.com/anghami/protoc-gen-grpc-gateway-ts
 ```
 
 Then ensure that your gobin is on your path:
@@ -92,7 +92,7 @@ Defines the logging levels. Default to info. Valid values are: debug, info, warn
 
 ### Notes:
 
-Zero-value fields are omitted from the URL query parameter list for GET requests. Therefore for a request payload such as `{ a: "A", b: "" c: 1, d: 0, e: false }` will become `/path/query?a=A&c=1`. A sample implementation is present within this [proto file](https://github.com/dpup/protoc-gen-grpc-gateway-ts/blob/master/test/integration/protos/service.proto) in the integration tests folder. For further explanation please read the following:
+Zero-value fields are omitted from the URL query parameter list for GET requests. Therefore for a request payload such as `{ a: "A", b: "" c: 1, d: 0, e: false }` will become `/path/query?a=A&c=1`. A sample implementation is present within this [proto file](https://github.com/anghami/protoc-gen-grpc-gateway-ts/blob/master/test/integration/protos/service.proto) in the integration tests folder. For further explanation please read the following:
 
 - <https://developers.google.com/protocol-buffers/docs/proto3#default>
 - <https://github.com/googleapis/googleapis/blob/master/google/api/http.proto>
