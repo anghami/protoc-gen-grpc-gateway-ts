@@ -10,18 +10,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.3.16",
-    "@types/google-protobuf": "^3.15.12",
-    "@types/lodash.camelcase": "^4.3.9",
-    "@types/mocha": "^10.0.6",
-    "@types/ramda": "^0.30.0",
-    "@web/dev-server-esbuild": "^1.0.2",
-    "@web/test-runner": "^0.18.2",
-    "chai": "^5.1.1",
-    "google-protobuf": "^3.21.2",
-    "lodash.camelcase": "^4.3.0",
-    "mocha": "^10.4.0",
-    "tree-kill": "^1.2.2",
-    "typescript": "^5.4.5"
+    "@types/chai": "4.3.16",
+    "@types/google-protobuf": "3.15.12",
+    "@types/lodash.camelcase": "4.3.9",
+    "@types/mocha": "10.0.6",
+    "@types/ramda": "0.30.0",
+    "@web/dev-server-esbuild": "1.0.2",
+    "@web/test-runner": "0.18.2",
+    "chai": "5.1.1",
+    "google-protobuf": "3.21.2",
+    "lodash.camelcase": "4.3.0",
+    "mocha": "10.4.0",
+    "tree-kill": "1.2.2",
+    "typescript": "5.4.5"
   }
 }
